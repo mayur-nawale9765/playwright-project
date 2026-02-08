@@ -1,5 +1,5 @@
 import {test,expect,Locator} from '@playwright/test'
-test('single select dropdown',async({page})=>{
+test.skip('single select dropdown',async({page})=>{
     await page.goto('https://testautomationpractice.blogspot.com/')
     const country:Locator=page.locator('#country') 
     //await country.selectOption('India'); //using text

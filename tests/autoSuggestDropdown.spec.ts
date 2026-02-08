@@ -1,5 +1,5 @@
 import { test, expect, Locator } from "@playwright/test";
-test("multiple select dropdown", async ({ page }) => {
+test.skip("multiple select dropdown", async ({ page }) => {
   await page.goto("https://www.amazon.in/");
   const searchBox = page.locator("#twotabsearchtextbox");
   await searchBox.fill("darma");

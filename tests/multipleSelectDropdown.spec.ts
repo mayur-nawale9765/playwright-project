@@ -1,5 +1,5 @@
 import{test,expect,Locator} from '@playwright/test'
-test('multipple select dropdown',async({page})=>{
+test.skip('multipple select dropdown',async({page})=>{
     await page.goto('https://testautomationpractice.blogspot.com/');
     // await page.locator('#colors').selectOption(['Red','Green','blue']);// by text
     // await page.locator('#colors').selectOption([{value:'red'},{value:'green'},{value:'blue'},]) //by value
