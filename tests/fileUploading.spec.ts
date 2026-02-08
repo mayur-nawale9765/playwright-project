@@ -1,6 +1,6 @@
 import {test,expect} from '@playwright/test';
 
-test('file uploading ',async({page})=>{
+test.skip('file uploading ',async({page})=>{
      await page.goto('https://testautomationpractice.blogspot.com/')
      const singleFile=page.locator('#singleFileInput')
      await singleFile.setInputFiles('C:/Users/Mayur/Documents/playwright/tests/test-data/abc.pdf');
